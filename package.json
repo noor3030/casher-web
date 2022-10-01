@@ -9,5 +9,10 @@
   },
   "devDependencies": {
     "nuxt": "3.0.0-rc.11"
+  },
+  "dependencies": {
+    "@nuxtjs/vuetify": "^1.12.3",
+    "sass": "^1.55.0",
+    "vuetify": "^3.0.0-beta.11"
   }
 }
