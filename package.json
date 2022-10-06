@@ -8,11 +8,14 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.11"
+    "nuxt": "3.0.0-rc.11",
+    "@nuxtjs/vuetify": "^1.12.3"
+
   },
   "dependencies": {
-    "@nuxtjs/vuetify": "^1.12.3",
-    "sass": "^1.55.0",
-    "vuetify": "^3.0.0-beta.11"
+    "css": "^3.0.0",
+    "mdi": "^2.2.43",
+    "sass": "^1.53.0",
+    "vuetify": "^3.0.0-beta.5"
   }
 }

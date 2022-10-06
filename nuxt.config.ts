@@ -8,7 +8,7 @@ export default defineNuxtConfig({
           apiBase: "",
         },
       },
-      css: ["vuetify/lib/styles/main.sass"],
+      css: ["vuetify/lib/styles/main.sass", "mdi/css/materialdesignicons.min.css"],
       build: {
         transpile: ["vuetify"],
       },

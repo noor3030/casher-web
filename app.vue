@@ -1,5 +1,5 @@
 <template>
-  <v-app class="app  px-16 pt-5">
+  <v-app class="app   pt-5">
 
     <Navbar />
 

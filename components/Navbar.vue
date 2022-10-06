@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <v-row>
+  <v-row class="px-16">
     <v-col cols="3">
       <v-img src="../assets/logo.svg" max-height="84" max-width="84"></v-img>
     </v-col>
