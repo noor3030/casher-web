@@ -1,11 +1,14 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div class="circle"></div>
+  <v-col md="6" xl="6" lg="6">
+    <div class="circle"></div>
+  </v-col>
+
   <div class="pt-16 px-16">
     <v-row>
 
-      <v-col cols="6">
+      <v-col md="6" xl="6" lg="6">
         <div class="textBox">
           <h2 style="font-size: 4em;">It’s not just pos <br> It’s
             <span>Cashier</span>
@@ -20,32 +23,34 @@
           </v-btn>
         </div>
       </v-col>
-      <v-row>
-        <v-col>
-          <div class="imgBox">
-            <v-img src="../assets/Device.svg" max-width="340"></v-img>
-          </div>
-        </v-col>
-        <v-col cols="1">
-          <div class="socialMediaBox">
-            <v-btn flat variant="text" icon class="pb-16">
-              <v-icon color="#fff">mdi-facebook</v-icon>
-            </v-btn>
-            <v-btn flat variant="text" icon class="pb-16">
-              <v-icon color="#fff">mdi-instagram</v-icon>
-            </v-btn>
-            <v-btn flat variant="text" icon class="pb-16">
-              <v-icon color="#fff">mdi-phone</v-icon>
-            </v-btn>
-          </div>
-        </v-col>
-      </v-row>
+      <v-col md="6" xl="6" lg="6">
+        <v-row justify="end">
+          <v-col>
+            <div class="imgBox">
+              <v-img src="../assets/Device.svg" max-width="340"></v-img>
+            </div>
+          </v-col>
+          <v-col cols="1">
+            <div class="socialMediaBox">
+              <v-btn flat variant="text" icon class="pb-16">
+                <v-icon color="#fff">mdi-facebook</v-icon>
+              </v-btn>
+              <v-btn flat variant="text" icon class="pb-16">
+                <v-icon color="#fff">mdi-instagram</v-icon>
+              </v-btn>
+              <v-btn flat variant="text" icon class="pb-16">
+                <v-icon color="#fff">mdi-phone</v-icon>
+              </v-btn>
+            </div>
+          </v-col>
+        </v-row>
+      </v-col>
 
 
 
-      <v-container class="d-flex justify-end thumb pr-16">
+      <v-row class=" thumb " justify="center">
         <v-img src="../assets/small-device.svg" max-width="60" v-for="n in 3" :key="n" class="mx-4"></v-img>
-      </v-container>
+      </v-row>
 
     </v-row>
 
@@ -74,9 +79,7 @@
   padding-top: 50px;
 }
 
-.thumb {
-  transform: translateX(-30%);
-}
+
 
 .thumb .v-img:hover {
   transform: translateY(-15px);
