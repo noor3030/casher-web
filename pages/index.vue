@@ -1,4 +1,7 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+
+
+</script>
 
 <template>
 
@@ -25,7 +28,7 @@
         <v-row justify="end">
           <v-col>
             <div class="imgBox">
-              <v-img src="../assets/Device.svg" max-width="340"></v-img>
+              <v-img src="../assets/Device.svg" max-width="340" class="device"></v-img>
             </div>
           </v-col>
           <v-col cols="1">
@@ -47,7 +50,8 @@
 
 
       <v-row class=" thumb " justify="center">
-        <v-img src="../assets/small-device.svg" max-width="60" v-for="n in 3" :key="n" class="mx-4"></v-img>
+        <v-img src="../assets/small-device.svg" max-width="60" v-for="n in 3" :key="n" class="mx-4"
+         > </v-img>
       </v-row>
 
     </v-row>
@@ -104,23 +108,26 @@
 
 }
 
-@media(max-width: 1125px)
-{
-  .circle{
+@media(max-width: 1125px) {
+  .circle {
     margin-top: 500px;
-height: 60%;
+    height: 60%;
   }
-  .imgBox{
+
+  .imgBox {
     padding-top: 200px;
   }
-  .textBox h2{
+
+  .textBox h2 {
     font-size: 2em;
 
   }
-  .socialMediaBox{
+
+  .socialMediaBox {
     padding-top: 400px;
   }
-  .thumb{
+
+  .thumb {
     padding-top: 50px;
   }
 }
